@@ -1,6 +1,6 @@
 <nav role="navigation" class="navbar navbar-default">
 	<div class="navbar-header">
-        <a href="#" class="navbar-brand">Mueblerias</a>
+        <a href="#" class="navbar-brand">Admin360</a>
     </div>
 	<div class="collapse navbar-collapse">
 		<ul class="nav navbar-nav">

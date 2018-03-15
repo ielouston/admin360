@@ -15,4 +15,5 @@ return [
     'allowedMethods' => ['GET'], // ex: ['GET', 'POST', 'PUT',  'DELETE']
     'exposedHeaders' => [],
     'maxAge' => 30,
-]
+];
+?>

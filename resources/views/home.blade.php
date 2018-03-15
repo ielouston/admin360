@@ -3,7 +3,7 @@
 @section('content')
 	
 	<div class="container">
-		<h1>Bienvenido a Mueblerias Rangel</h1>
+		<h1>Bienvenido a Admin360</h1>
 		<div class="block">
 			<img src="" alt="">
 			<gallery

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-	<p>Mueblerias Frayde | Venta de Mayoreo y Menudeo</p>
+	<p>Admin360 | Administra tu negocio en cualquier dispositivo</p>
 @stop
 @section('content')
 	@include('partials.navs.default')
@@ -11,7 +11,9 @@
 	<div class="container full">
 		<h1>Bienvenido al sistema web,  {{ Auth::user()->name }}!</h1>	
 		
-		<pre>Token : <p>{{ Session::get('token') }}</p></pre>
+		<pre>
+			<p>IP : </p>
+		</pre>
 	</div>
 	
 @stop
