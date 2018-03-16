@@ -20,7 +20,7 @@ class CreateAdminsTable extends Migration
             $table->string('email')->unique();
             $table->string('device');
             $table->integer('type')->default(1);
-            $table->string('situacion');
+            $table->string('situacion')->default("Activo");
             $table->rememberToken();
             $table->timestamps();
         });

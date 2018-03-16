@@ -5,6 +5,7 @@ namespace Muebleria\Http\Controllers;
 use Illuminate\Http\Request;
 use Validator;
 use Muebleria\User;
+use Muebleria\Admin;
 use JWTAuth;
 
 class UserController extends Controller
@@ -21,12 +22,19 @@ class UserController extends Controller
     		return response()->json(0, 400);
     	}
     
-        $credentials = $request->only(['name', 'password']);
-        $user = User::firstOrCreate($credentials, $request->only([
-                'name', 'password', 'email', 'type', 'device', 'business_id'
-        ]));
+			$credentials = $request->only(['name', 'password']);
+			$data = $request->only([
+				'name', 'password', 'email', 'type', 'device', 'business_id'
+			]);
+			$user = User::firstOrCreate($credentials, $data);
 
     	if($user->save()){
+				if ($user->type == "Admin") {
+					$admin_data = $request->only([
+						'name', 'password', 'situacion', 'type', 'device', 'business_id'
+					]);
+					$admin = Admin::firstOrCreate($admin_data);
+				}
     		return response()->json($user->id, 200);
     	}
     	return response()->json(0, 500);
