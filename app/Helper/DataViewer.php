@@ -1,7 +1,7 @@
 <?php 
-namespace App\Helper;
+namespace Admin360\Helper;
 use Validator;
-use App\Scopes\SearchPaginateAndOrder;
+use Admin360\Scopes\SearchPaginateAndOrder;
 
 trait DataViewer{
 	

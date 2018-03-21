@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Repositories\ClientRepository;
-use App\Client;
+use Admin360\Http\Repositories\ClientRepository;
+use Admin360\Client;
 use Validator;
-use App\Http\Controllers\FileController;
+use Admin360\Http\Controllers\FileController;
 
 class ClientApiController extends Controller
 {

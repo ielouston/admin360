@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
 use Illuminate\Support\Facades\DB;
-use App\Queue;
+use Admin360\Queue;
 
 class QueueController extends Controller
 {

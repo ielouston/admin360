@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use App\Http\Repositories\ClientRepository;
+use Admin360\Http\Repositories\ClientRepository;
 
 class ClientController extends Controller
 {

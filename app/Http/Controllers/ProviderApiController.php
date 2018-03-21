@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use App\Provider;
-use App\Buy;
+use Admin360\Provider;
+use Admin360\Buy;
 
 class ProviderApiController extends Controller
 {

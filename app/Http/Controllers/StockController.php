@@ -1,7 +1,7 @@
 <?php
 
-namespace App\Http\Controllers;
-use App\Stock;
+namespace Admin360\Http\Controllers;
+use Admin360\Stock;
 use Illuminate\Http\Request;
 use Validator;
 

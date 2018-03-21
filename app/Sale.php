@@ -1,9 +1,9 @@
 <?php
 
-namespace App;
+namespace Admin360;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Scopes\SearchPaginateAndOrder;
+use Admin360\Scopes\SearchPaginateAndOrder;
 
 class Sale extends Model
 {

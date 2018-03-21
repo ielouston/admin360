@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Events;
+namespace Admin360\Events;
 
-use App\Events\Event;
+use Admin360\Events\Event;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use App\User;
-use App\Admin;
+use Admin360\User;
+use Admin360\Admin;
 use JWTAuth;
 
 class UserController extends Controller

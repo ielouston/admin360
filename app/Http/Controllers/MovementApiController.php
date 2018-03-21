@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
 use Carbon\Carbon;
-use App\Movement;
-use App\Expense;
+use Admin360\Movement;
+use Admin360\Expense;
 use Illuminate\Support\Facades\DB;
 
 class MovementApiController extends Controller

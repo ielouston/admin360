@@ -3,7 +3,7 @@
 namespace App;
  
 use Illuminate\Database\Eloquent\Model;
-use App\Scopes\SearchPaginateAndOrder;
+use Admin360\Scopes\SearchPaginateAndOrder;
 
 class Product extends Model
 {

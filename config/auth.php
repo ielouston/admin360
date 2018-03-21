@@ -82,17 +82,17 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => Admin360\User::class,
         ],
 
         'admins' => [
             'driver' => 'eloquent',
-            'model' => Muebleria\Admin::class,
+            'model' => Admin360\Admin::class,
         ],
 
         'managers' => [
             'driver' => 'eloquent',
-            'model' => Muebleria\Manager::class,
+            'model' => Admin360\Manager::class,
         ],
 
         // 'users' => [

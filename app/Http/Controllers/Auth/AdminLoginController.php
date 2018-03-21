@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Admin360\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use App\Http\Controllers\AuthenticateController;
+use Admin360\Http\Controllers\Controller;
+use Admin360\Http\Controllers\AuthenticateController;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Validator;
 use Illuminate\Support\Facades\Auth;

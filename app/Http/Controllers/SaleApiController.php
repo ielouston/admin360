@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Repositories\SaleRepository;
-use App\Sale;
-use App\Payment;
-use App\Movement;
-use App\Stock;
+use Admin360\Http\Repositories\SaleRepository;
+use Admin360\Sale;
+use Admin360\Payment;
+use Admin360\Movement;
+use Admin360\Stock;
 use Validator;
 use Carbon\Carbon;
 

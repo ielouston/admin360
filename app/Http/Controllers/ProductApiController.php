@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use App\Product;
-use App\Stock;
-use App\Queue;
+use Admin360\Product;
+use Admin360\Stock;
+use Admin360\Queue;
 
 class ProductApiController extends Controller
 {
