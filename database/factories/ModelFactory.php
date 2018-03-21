@@ -11,8 +11,8 @@
 |
 */
 
-use Muebleria\User;
-use Muebleria\Client;
+use App\User;
+use App\Client;
 
 $factory->define(User::class, function (Faker\Generator $faker) {
     return [

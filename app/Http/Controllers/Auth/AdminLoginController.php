@@ -1,10 +1,10 @@
 <?php
 
-namespace Muebleria\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
-use Muebleria\Http\Controllers\Controller;
-use Muebleria\Http\Controllers\AuthenticateController;
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\AuthenticateController;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Validator;
 use Illuminate\Support\Facades\Auth;

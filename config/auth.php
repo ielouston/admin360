@@ -82,7 +82,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Muebleria\User::class,
+            'model' => App\User::class,
         ],
 
         'admins' => [

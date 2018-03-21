@@ -1,10 +1,10 @@
 <?php
 
-namespace Muebleria\Http\Repositories;
+namespace App\Http\Repositories;
 
 use Illuminate\Http\Request;
-use Muebleria\Http\Controllers\Controller;
-use Muebleria\Client;
+use App\Http\Controllers\Controller;
+use App\Client;
 use Validator;
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Muebleria\Http\Middleware;
+namespace App\Http\Middleware;
 
 use Closure;
 

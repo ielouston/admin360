@@ -1,11 +1,11 @@
 <?php
 
-namespace Muebleria;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Muebleria\Client;
+use App\Client;
 use Illuminate\Http\Request;
-use Muebleria\Scopes\SearchPaginateAndOrder;
+use App\Scopes\SearchPaginateAndOrder;
 
 class Client extends Model
 {

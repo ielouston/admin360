@@ -1,7 +1,7 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
-use Muebleria\Stock;
+namespace App\Http\Controllers;
+use App\Stock;
 use Illuminate\Http\Request;
 use Validator;
 

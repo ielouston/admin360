@@ -1,9 +1,9 @@
 <?php
 
-namespace Muebleria;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Muebleria\Stock;
+use App\Stock;
 
 class Provider extends Model
 {

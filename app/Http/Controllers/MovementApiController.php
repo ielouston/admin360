@@ -1,12 +1,12 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
 use Carbon\Carbon;
-use Muebleria\Movement;
-use Muebleria\Expense;
+use App\Movement;
+use App\Expense;
 use Illuminate\Support\Facades\DB;
 
 class MovementApiController extends Controller

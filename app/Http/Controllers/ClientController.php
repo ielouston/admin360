@@ -1,10 +1,10 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use Muebleria\Http\Repositories\ClientRepository;
+use App\Http\Repositories\ClientRepository;
 
 class ClientController extends Controller
 {

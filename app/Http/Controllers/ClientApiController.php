@@ -1,12 +1,12 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Muebleria\Http\Repositories\ClientRepository;
-use Muebleria\Client;
+use App\Http\Repositories\ClientRepository;
+use App\Client;
 use Validator;
-use Muebleria\Http\Controllers\FileController;
+use App\Http\Controllers\FileController;
 
 class ClientApiController extends Controller
 {

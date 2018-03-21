@@ -1,11 +1,11 @@
 <?php
 
-namespace Muebleria;
+namespace App;
 use Illuminate\Database\Eloquent\Model;
-use Muebleria\Buy;
-use Muebleria\Sale;
-use Muebleria\User;
-use Muebleria\Stock;
+use App\Buy;
+use App\Sale;
+use App\User;
+use App\Stock;
 
 
 class Business extends Model

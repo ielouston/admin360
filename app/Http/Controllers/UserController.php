@@ -1,11 +1,11 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use Muebleria\User;
-use Muebleria\Admin;
+use App\User;
+use App\Admin;
 use JWTAuth;
 
 class UserController extends Controller

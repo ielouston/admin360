@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Muebleria',
+    'name' => 'Admin360',
 
     /*
     |--------------------------------------------------------------------------
@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Muebleria\Providers\AppServiceProvider::class,
-        Muebleria\Providers\AuthServiceProvider::class,
-        // Muebleria\Providers\BroadcastServiceProvider::class,
-        Muebleria\Providers\EventServiceProvider::class,
-        Muebleria\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class
     ],
 

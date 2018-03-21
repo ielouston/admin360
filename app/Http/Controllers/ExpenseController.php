@@ -1,7 +1,7 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
-use Muebleria\Expense;
+namespace App\Http\Controllers;
+use App\Expense;
 use Illuminate\Http\Request;
 use Validator;
 

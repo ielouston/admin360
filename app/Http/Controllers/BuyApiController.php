@@ -1,17 +1,17 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use Muebleria\Buy;
-use Muebleria\Business;
-use Muebleria\Movement;
+use App\Buy;
+use App\Business;
+use App\Movement;
 use Carbon\Carbon;
-use Muebleria\Provider;
-use Muebleria\Stock;
-use Muebleria\Sale;
-use Muebleria\Queue;
+use App\Provider;
+use App\Stock;
+use App\Sale;
+use App\Queue;
 
 class BuyApiController extends Controller
 {

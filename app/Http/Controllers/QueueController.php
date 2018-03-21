@@ -1,11 +1,11 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
 use Illuminate\Support\Facades\DB;
-use Muebleria\Queue;
+use App\Queue;
 
 class QueueController extends Controller
 {

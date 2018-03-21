@@ -1,12 +1,12 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use Muebleria\Product;
-use Muebleria\Stock;
-use Muebleria\Queue;
+use App\Product;
+use App\Stock;
+use App\Queue;
 
 class ProductApiController extends Controller
 {

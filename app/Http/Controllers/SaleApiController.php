@@ -1,13 +1,13 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Muebleria\Http\Repositories\SaleRepository;
-use Muebleria\Sale;
-use Muebleria\Payment;
-use Muebleria\Movement;
-use Muebleria\Stock;
+use App\Http\Repositories\SaleRepository;
+use App\Sale;
+use App\Payment;
+use App\Movement;
+use App\Stock;
 use Validator;
 use Carbon\Carbon;
 

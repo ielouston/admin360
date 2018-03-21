@@ -1,11 +1,11 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use Muebleria\Provider;
-use Muebleria\Buy;
+use App\Provider;
+use App\Buy;
 
 class ProviderApiController extends Controller
 {

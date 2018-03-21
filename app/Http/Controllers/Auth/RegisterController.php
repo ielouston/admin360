@@ -1,10 +1,10 @@
 <?php
 
-namespace Muebleria\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use Muebleria\User;
+use App\User;
 use Validator;
-use Muebleria\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller

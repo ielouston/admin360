@@ -1,11 +1,11 @@
 <?php
 
-namespace Muebleria\Listeners;
+namespace App\Listeners;
 
-use Muebleria\Events\ReportMovement;
+use App\Events\ReportMovement;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Muebleria\Queue;
+use App\Queue;
 
 class UserEventsListener
 {
@@ -44,6 +44,6 @@ class UserEventsListener
      */
     public function handle(ReportMovement $event)
     {
-        $events->listen('Muebleria\Events\ReportMovement', 'UserEventListener@ReportMovement');
+        $events->listen('App\Events\ReportMovement', 'UserEventListener@ReportMovement');
     }
 }

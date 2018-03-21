@@ -1,12 +1,12 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use Muebleria\Payment;
-use Muebleria\Movement;
-use Muebleria\Sale;
+use App\Payment;
+use App\Movement;
+use App\Sale;
 use Carbon\Carbon;
 
 class PaymentController extends Controller

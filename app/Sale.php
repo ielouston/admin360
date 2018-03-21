@@ -1,9 +1,9 @@
 <?php
 
-namespace Muebleria;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Muebleria\Scopes\SearchPaginateAndOrder;
+use App\Scopes\SearchPaginateAndOrder;
 
 class Sale extends Model
 {

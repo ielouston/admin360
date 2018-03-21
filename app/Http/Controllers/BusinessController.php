@@ -1,9 +1,9 @@
 <?php
 
-namespace Muebleria\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Muebleria\Business;
+use App\Business;
 use Validator;
 
 class BusinessController extends Controller

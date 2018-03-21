@@ -1,7 +1,7 @@
 <?php 
-namespace Muebleria\Helper;
+namespace App\Helper;
 use Validator;
-use Muebleria\Scopes\SearchPaginateAndOrder;
+use App\Scopes\SearchPaginateAndOrder;
 
 trait DataViewer{
 	
