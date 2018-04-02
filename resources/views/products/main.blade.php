@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-	Productos de Mueblerias en General
+	Productos de Negocios en General
 @stop
 @section('nav')
 	@include('partials.navs.default')
