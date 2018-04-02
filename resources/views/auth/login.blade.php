@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-	<p>Admin360 | Inicia Sesión </p>
+	Admin360 | Inicia Sesión
 @stop
 @section('content')
 	@include('partials.navs.default')

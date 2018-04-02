@@ -87,12 +87,12 @@ return [
 
         'admins' => [
             'driver' => 'eloquent',
-            'model' => Admin360\Admin::class,
+            'model' => admin360\Admin::class,
         ],
 
         'managers' => [
             'driver' => 'eloquent',
-            'model' => Admin360\Manager::class,
+            'model' => admin360\Manager::class,
         ],
 
         // 'users' => [
