@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Muebleria\Admin;
+use admin360\Admin;
 
 class AdminTableSeeder extends Seeder
 {

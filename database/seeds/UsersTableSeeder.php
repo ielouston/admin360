@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
-use Muebleria\User;
+use admin360\User;
 
 class UsersTableSeeder extends Seeder
 {
@@ -17,32 +17,12 @@ class UsersTableSeeder extends Seeder
 
         User::create([
         	'name' => 'alan',
-        	'password' => bcrypt('sosa'),
+        	'password' => bcrypt('Tru3nala!'),
         	'nombres' => 'Alan Mauricio',
         	'apellidos' => 'Sosa Garcia',
         	'email' => 'alan.sosa.g@hotmail.com',
         	'type' => 1,
         	'device' => 'Generated',
-        ]);
-
-        User::create([
-        	'name' => 'paco',
-        	'password' => bcrypt('rangel'),
-        	'nombres' => 'Francisco',
-        	'apellidos' => 'Rangel',
-        	'email' => 'expomueblesrangel@hotmail.com',
-        	'type' => 2,
-        	'device' => 'Generated',
-        ]);
-
-        User::create([
-        	'name' => 'vendedor',
-        	'password' => bcrypt('testing'),
-        	'nombres' => 'Nombre del vendedor',
-        	'apellidos' => 'Apellidos',
-        	'email' => 'sin email',
-        	'type' => 3,
-        	'device' => 'Generated'
         ]);
     }
 }
