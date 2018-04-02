@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace admin360;
 
 use Illuminate\Database\Eloquent\Model;
 use admin360\Stock;
