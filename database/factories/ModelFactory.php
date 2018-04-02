@@ -11,8 +11,8 @@
 |
 */
 
-use Admin360\User;
-use Admin360\Client;
+use admin360\User;
+use admin360\Client;
 
 $factory->define(User::class, function (Faker\Generator $faker) {
     return [

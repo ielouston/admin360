@@ -1,8 +1,8 @@
 <?php
 
-namespace Admin360\Listeners;
+namespace admin360\Listeners;
 
-use Admin360\Events\SomeEvent;
+use admin360\Events\SomeEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 

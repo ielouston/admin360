@@ -1,13 +1,13 @@
 <?php
 
-namespace Admin360\Http\Controllers;
+namespace admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Admin360\Inventory;
-use Admin360\Movement;
-use Admin360\Stock;
-use Admin360\Product;
-use Admin360\Http\Controllers\ProductApiController;
+use admin360\Inventory;
+use admin360\Movement;
+use admin360\Stock;
+use admin360\Product;
+use admin360\Http\Controllers\ProductApiController;
 use Validator;
 use Carbon\Carbon;
  

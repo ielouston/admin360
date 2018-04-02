@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin360\Exceptions;
+namespace admin360\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

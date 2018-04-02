@@ -1,11 +1,11 @@
 <?php
 
-namespace Admin360\Listeners;
+namespace admin360\Listeners;
 
-use Admin360\Events\ReportMovement;
+use admin360\Events\ReportMovement;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Admin360\Queue;
+use admin360\Queue;
 
 class UserEventsListener
 {
@@ -44,6 +44,6 @@ class UserEventsListener
      */
     public function handle(ReportMovement $event)
     {
-        $events->listen('Admin360\Events\ReportMovement', 'UserEventListener@ReportMovement');
+        $events->listen('admin360\Events\ReportMovement', 'UserEventListener@ReportMovement');
     }
 }

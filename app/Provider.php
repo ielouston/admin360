@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Admin360\Stock;
+use admin360\Stock;
 
 class Provider extends Model
 {

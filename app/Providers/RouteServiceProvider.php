@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin360\Providers;
+namespace admin360\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Admin360\Http\Controllers';
+    protected $namespace = 'admin360\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

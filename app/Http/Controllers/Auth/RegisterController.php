@@ -1,10 +1,10 @@
 <?php
 
-namespace Admin360\Http\Controllers\Auth;
+namespace admin360\Http\Controllers\Auth;
 
-use Admin360\User;
+use admin360\User;
 use Validator;
-use Admin360\Http\Controllers\Controller;
+use admin360\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller

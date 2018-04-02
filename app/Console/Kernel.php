@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin360\Console;
+namespace admin360\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

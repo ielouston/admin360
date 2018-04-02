@@ -1,11 +1,11 @@
 <?php
 
-namespace Admin360;
+namespace admin360;
 
 use Illuminate\Database\Eloquent\Model;
-use Admin360\Client;
+use admin360\Client;
 use Illuminate\Http\Request;
-use Admin360\Scopes\SearchPaginateAndOrder;
+use admin360\Scopes\SearchPaginateAndOrder;
 
 class Client extends Model
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Admin360\Http\Controllers;
+namespace admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use Admin360\Buy;
-use Admin360\Business;
-use Admin360\Movement;
+use admin360\Buy;
+use admin360\Business;
+use admin360\Movement;
 use Carbon\Carbon;
-use Admin360\Provider;
-use Admin360\Stock;
-use Admin360\Sale;
-use Admin360\Queue;
+use admin360\Provider;
+use admin360\Stock;
+use admin360\Sale;
+use admin360\Queue;
 
 class BuyApiController extends Controller
 {

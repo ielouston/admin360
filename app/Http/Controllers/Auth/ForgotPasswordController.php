@@ -1,8 +1,8 @@
 <?php
 
-namespace Admin360\Http\Controllers\Auth;
+namespace admin360\Http\Controllers\Auth;
 
-use Admin360\Http\Controllers\Controller;
+use admin360\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

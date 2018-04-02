@@ -1,12 +1,12 @@
 <?php
 
-namespace Admin360\Http\Controllers;
+namespace admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
-use Admin360\Payment;
-use Admin360\Movement;
-use Admin360\Sale;
+use admin360\Payment;
+use admin360\Movement;
+use admin360\Sale;
 use Carbon\Carbon;
 
 class PaymentController extends Controller

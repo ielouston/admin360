@@ -1,11 +1,11 @@
 <?php
 
-namespace Admin360;
+namespace admin360;
 use Illuminate\Database\Eloquent\Model;
-use Admin360\Buy;
-use Admin360\Sale;
-use Admin360\User;
-use Admin360\Stock;
+use admin360\Buy;
+use admin360\Sale;
+use admin360\User;
+use admin360\Stock;
 
 
 class Business extends Model

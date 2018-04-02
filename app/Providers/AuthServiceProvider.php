@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin360\Providers;
+namespace admin360\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Admin360\Model' => 'Admin360\Policies\ModelPolicy',
+        'admin360\Model' => 'admin360\Policies\ModelPolicy',
     ];
 
     /**

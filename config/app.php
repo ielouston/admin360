@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Admin360\Providers\AppServiceProvider::class,
-        Admin360\Providers\AuthServiceProvider::class,
-        // Admin360\Providers\BroadcastServiceProvider::class,
-        Admin360\Providers\EventServiceProvider::class,
-        Admin360\Providers\RouteServiceProvider::class,
+        admin360\Providers\AppServiceProvider::class,
+        admin360\Providers\AuthServiceProvider::class,
+        // admin360\Providers\BroadcastServiceProvider::class,
+        admin360\Providers\EventServiceProvider::class,
+        admin360\Providers\RouteServiceProvider::class,
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class
     ],
 

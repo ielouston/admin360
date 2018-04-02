@@ -82,7 +82,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Admin360\User::class,
+            'model' => admin360\User::class,
         ],
 
         'admins' => [

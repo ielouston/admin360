@@ -1,9 +1,9 @@
 <?php
 
-namespace Admin360\Http\Controllers;
+namespace admin360\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Admin360\Business;
+use admin360\Business;
 use Validator;
 
 class BusinessController extends Controller

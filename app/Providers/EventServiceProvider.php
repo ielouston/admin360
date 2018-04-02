@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin360\Providers;
+namespace admin360\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Admin360\Events\ReportMovement' => [
-            'Admin360\Listeners\UserEventsListener',
+        'admin360\Events\ReportMovement' => [
+            'admin360\Listeners\UserEventsListener',
         ],
     ];
 

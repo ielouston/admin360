@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin360\Providers;
+namespace admin360\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

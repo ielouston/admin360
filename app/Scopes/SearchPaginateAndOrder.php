@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin360\Scopes;
+namespace admin360\Scopes;
 
 use Illuminate\Database\Eloquent\Scope;
 use Illuminate\Database\Eloquent\Model;

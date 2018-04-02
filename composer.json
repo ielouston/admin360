@@ -23,7 +23,7 @@
             "database"
         ],
         "psr-4": {
-            "Admin360\\": "app/"
+            "admin360\\": "app/"
         }
     },
     "autoload-dev": {

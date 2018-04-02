@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin360\Http;
+namespace admin360\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -24,11 +24,11 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-            \Admin360\Http\Middleware\EncryptCookies::class,
+            \admin360\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \Admin360\Http\Middleware\VerifyCsrfToken::class,
+            \admin360\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
 
@@ -48,12 +48,12 @@ class Kernel extends HttpKernel
     protected $routeMiddleware = [
         'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'admin_auth' => \Admin360\Http\Middleware\AuthenticateAdmin::class,
-        'admin_guest' => \Admin360\Http\Middleware\RedirectIfAdminAuthenticate::class,
+        'admin_auth' => \admin360\Http\Middleware\AuthenticateAdmin::class,
+        'admin_guest' => \admin360\Http\Middleware\RedirectIfAdminAuthenticate::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
-        'cors' => \Admin360\Http\Middleware\Cors::class,
-        'guest' => \Admin360\Http\Middleware\RedirectIfAuthenticated::class,
+        'cors' => \admin360\Http\Middleware\Cors::class,
+        'guest' => \admin360\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'jwt.auth' => \Tymon\JWTAuth\Middleware\GetUserFromToken::class,
         'jwt.refresh' => \Tymon\JWTAuth\Middleware\RefreshToken::class

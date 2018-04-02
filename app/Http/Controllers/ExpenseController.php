@@ -1,7 +1,7 @@
 <?php
 
-namespace Admin360\Http\Controllers;
-use Admin360\Expense;
+namespace admin360\Http\Controllers;
+use admin360\Expense;
 use Illuminate\Http\Request;
 use Validator;
 
