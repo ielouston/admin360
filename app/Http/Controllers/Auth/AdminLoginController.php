@@ -47,7 +47,7 @@ class AdminLoginController extends Controller
     	$remember = $request->get('remember') == 'on' ? true : false;
     	
     	if(Auth::guard('admin')->attempt($credentials, $remember)){
-            //Retrieve and send the token to the dashboard
+            // Retrieve and send the token to the dashboard
             $cUserA = new AuthenticateController();
             $token = $cUserA->getToken($credentials);
             session(['token' => $token]);
@@ -55,7 +55,7 @@ class AdminLoginController extends Controller
     		return redirect()->route('admin_dashboard');
     	}
         
-    	return redirect()->back()->withErrors()->withInput();
+    	return redirect()->back()->withErrors('error al iniciar sesión, el usuario no existe.')->withInput();
     }
 
     public function logout(){
